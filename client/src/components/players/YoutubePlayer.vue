@@ -204,6 +204,10 @@ export default {
 			this.player.setPlaybackRate(rate);
 		},
 
+		isQualitySupported() {
+			return false;
+		},
+
 		onApiChange() {
 			console.debug(`youtube: onApiChange`);
 
